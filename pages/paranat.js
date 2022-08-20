@@ -1,11 +1,11 @@
 import link from 'next/link';
 
-function Home() {
+function paranat() {
     return (<div>
         <h1>Home</h1>
 
-        <link href="/paranat">
-            <a>Acessar area VIP</a>
+        <link  href="/">
+            <a>Voltar para Home</a>
         </link>
         </div>)
 }
